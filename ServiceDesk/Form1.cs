@@ -1,10 +1,16 @@
 namespace ServiceDesk
 {
-    public partial class Form1 : Form
+    public partial class VisualisationTicket : Form
     {
-        public Form1()
+        public VisualisationTicket()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ULogin LoginForm = new ULogin();
+            LoginForm.ShowDialog();
         }
     }
 }
