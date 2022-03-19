@@ -19,7 +19,7 @@ namespace ServiceDesk
 
         private void ULogin_Load(object sender, EventArgs e)
         {
-
+            GestionDB.getInstance();
         }
 
         private void button2_Click(object sender, EventArgs e)
