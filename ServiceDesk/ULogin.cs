@@ -42,6 +42,10 @@ namespace ServiceDesk
             {
                 role = "ITHelp";
             }
+            this.Hide();
+            Home home = new Home();
+            home.Show();
+            
         }
     }
 }

@@ -41,6 +41,9 @@
             this.gestionIncidentMajeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.créerIncidentMajeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rechercherIncidentMajeurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionUtilisateursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.créerUnUtilisateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rechercherUnUtilisateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inventaireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.créerUnArticleINVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rechercherUnArticleINVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,9 +65,6 @@
             this.créerGroupeSDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rechercherGroupeSDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paramètresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestionUtilisateursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.créerUnUtilisateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rechercherUnUtilisateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -146,6 +146,7 @@
             this.créerUnTicketToolStripMenuItem1.Name = "créerUnTicketToolStripMenuItem1";
             this.créerUnTicketToolStripMenuItem1.Size = new System.Drawing.Size(182, 22);
             this.créerUnTicketToolStripMenuItem1.Text = "Créer un ticket";
+            this.créerUnTicketToolStripMenuItem1.Click += new System.EventHandler(this.créerUnTicketToolStripMenuItem1_Click);
             // 
             // rechercherUnTicketToolStripMenuItem
             // 
@@ -173,6 +174,27 @@
             this.rechercherIncidentMajeurToolStripMenuItem.Name = "rechercherIncidentMajeurToolStripMenuItem";
             this.rechercherIncidentMajeurToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.rechercherIncidentMajeurToolStripMenuItem.Text = "Rechercher incident majeur";
+            // 
+            // gestionUtilisateursToolStripMenuItem
+            // 
+            this.gestionUtilisateursToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.créerUnUtilisateurToolStripMenuItem,
+            this.rechercherUnUtilisateurToolStripMenuItem});
+            this.gestionUtilisateursToolStripMenuItem.Name = "gestionUtilisateursToolStripMenuItem";
+            this.gestionUtilisateursToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
+            this.gestionUtilisateursToolStripMenuItem.Text = "Gestion utilisateurs";
+            // 
+            // créerUnUtilisateurToolStripMenuItem
+            // 
+            this.créerUnUtilisateurToolStripMenuItem.Name = "créerUnUtilisateurToolStripMenuItem";
+            this.créerUnUtilisateurToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.créerUnUtilisateurToolStripMenuItem.Text = "Créer un utilisateur";
+            // 
+            // rechercherUnUtilisateurToolStripMenuItem
+            // 
+            this.rechercherUnUtilisateurToolStripMenuItem.Name = "rechercherUnUtilisateurToolStripMenuItem";
+            this.rechercherUnUtilisateurToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.rechercherUnUtilisateurToolStripMenuItem.Text = "Rechercher un utilisateur";
             // 
             // inventaireToolStripMenuItem
             // 
@@ -320,27 +342,6 @@
             this.paramètresToolStripMenuItem.Name = "paramètresToolStripMenuItem";
             this.paramètresToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.paramètresToolStripMenuItem.Text = "Paramètres";
-            // 
-            // gestionUtilisateursToolStripMenuItem
-            // 
-            this.gestionUtilisateursToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.créerUnUtilisateurToolStripMenuItem,
-            this.rechercherUnUtilisateurToolStripMenuItem});
-            this.gestionUtilisateursToolStripMenuItem.Name = "gestionUtilisateursToolStripMenuItem";
-            this.gestionUtilisateursToolStripMenuItem.Size = new System.Drawing.Size(119, 20);
-            this.gestionUtilisateursToolStripMenuItem.Text = "Gestion utilisateurs";
-            // 
-            // créerUnUtilisateurToolStripMenuItem
-            // 
-            this.créerUnUtilisateurToolStripMenuItem.Name = "créerUnUtilisateurToolStripMenuItem";
-            this.créerUnUtilisateurToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.créerUnUtilisateurToolStripMenuItem.Text = "Créer un utilisateur";
-            // 
-            // rechercherUnUtilisateurToolStripMenuItem
-            // 
-            this.rechercherUnUtilisateurToolStripMenuItem.Name = "rechercherUnUtilisateurToolStripMenuItem";
-            this.rechercherUnUtilisateurToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.rechercherUnUtilisateurToolStripMenuItem.Text = "Rechercher un utilisateur";
             // 
             // Home
             // 

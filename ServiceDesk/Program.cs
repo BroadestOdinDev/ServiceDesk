@@ -9,7 +9,7 @@ namespace ServiceDesk
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new VisualisationTicket());
+            Application.Run(new ULogin());
         }
     }
 }

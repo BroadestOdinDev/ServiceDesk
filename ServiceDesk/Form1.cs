@@ -9,8 +9,6 @@ namespace ServiceDesk
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Home home = new Home();
-            home.Show();
         }
     }
 }

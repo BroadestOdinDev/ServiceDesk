@@ -44,5 +44,11 @@ namespace ServiceDesk
         {
 
         }
+
+        private void créerUnTicketToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            VisualisationTicket visualisationTicket = new VisualisationTicket();
+            visualisationTicket.Show();
+        }
     }
 }
