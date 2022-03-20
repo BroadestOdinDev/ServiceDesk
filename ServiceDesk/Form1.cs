@@ -9,8 +9,8 @@ namespace ServiceDesk
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ULogin LoginForm = new ULogin();
-            LoginForm.ShowDialog();
+            Home home = new Home();
+            home.Show();
         }
     }
 }
